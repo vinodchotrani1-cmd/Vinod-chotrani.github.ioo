@@ -3,48 +3,61 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Vinod Chotrani's Profile</title>
+    <title>Vinod Kumar Chotrani - Profile</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
-            padding: 40px;
-        }
-        .container {
-            background-color: white;
-            max-width: 600px;
-            margin: auto;
+            margin: 0;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        img {
+        .profile {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .profile img {
             width: 150px;
+            height: 150px;
             border-radius: 50%;
+            object-fit: cover;
         }
         h1 {
-            color: #333;
+            margin: 10px 0 5px 0;
         }
         p {
             color: #555;
-            font-size: 18px;
+            margin: 5px 0;
+        }
+        .education {
+            margin-top: 15px;
+            text-align: left;
+        }
+        .education h3 {
+            margin-bottom: 5px;
         }
         a {
-            color: #0073e6;
+            color: #0077cc;
             text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="https://via.placeholder.com/150" alt="Profile Photo">
-        <h1>Vinod Chotrani</h1>
-        <p><strong>Email:</strong> vinod@example.com</p>
-        <p><strong>Phone:</strong> +91 9876543210</p>
-        <p><strong>Location:</strong> India</p>
-        <p>Hello! मैं एक passionate learner हूँ और GitHub Pages पर अपनी प्रोफ़ाइल साझा कर रहा हूँ।</p>
-        <p>मेरी अन्य वेबसाइट या सोशल प्रोफ़ाइल: <a href="https://www.example.com" target="_blank">Visit Here</a></p>
+
+    <div class="profile">
+        <img src="https://via.placeholder.com/150" alt="Vinod's Photo">
+        <h1>Vinod Kumar Chotrani</h1>
+        <p>Email: <a href="mailto:vinodchotrani1@gmail.com">vinodchotrani1@gmail.com</a></p>
+
+        <div class="education">
+            <h3>Education:</h3>
+            <p>10th – 56%</p>
+            <p>12th – 70.80%</p>
+        </div>
     </div>
+
 </body>
 </html>
